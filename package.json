@@ -1,0 +1,13 @@
+{
+  "name": "web-book",
+  "version": "1.0.0",
+  "description": "just another web bookmark tool",
+  "repository": "git@github.com:nkosakul/web-book.git",
+  "author": "nkosakul <nkosakul@3pc.de>",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "ui-lib",
+    "app"
+  ]
+}
