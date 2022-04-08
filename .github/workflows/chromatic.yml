@@ -4,6 +4,10 @@ name: "Chromatic Deployment"
 # Event for the workflow
 on: push
 
+defaults:
+  run:
+    working-directory: ./ui-lib
+
 # List of jobs
 jobs:
   test:
@@ -13,8 +17,6 @@ jobs:
     steps:
       - uses: actions/checkout@v1
       - run: yarn
-        working-directory: ./ui-lib
-
         #👇 Adds Chromatic as a step in the workflow
       - uses: chromaui/action@v1
         # Options required for Chromatic's GitHub Action
