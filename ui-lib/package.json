@@ -3,9 +3,6 @@
   "private": true,
   "version": "1.0.0",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook"
   },
@@ -20,6 +17,7 @@
     "@storybook/vue3": "^6.4.20",
     "@vitejs/plugin-vue": "^2.3.0",
     "babel-loader": "^8.2.4",
+    "chromatic": "^6.5.3",
     "vite": "^2.9.0",
     "vue-loader": "^16.8.3"
   }
