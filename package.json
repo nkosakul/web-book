@@ -9,5 +9,11 @@
   "workspaces": [
     "ui-lib",
     "app"
-  ]
+  ],
+  "config": {
+    "uilibpath": "ui-lib"
+  },
+  "scripts": {
+    "build-storybook": "build-storybook --config-dir $npm_package_config_uilibpath/.storybook"
+  }
 }
