@@ -11,6 +11,11 @@
     "build": "vite build",
     "preview": "vite preview"
   },
+  "lint-staged": {
+    "src/**/*.{js,vue}": [
+      "eslint --fix --max-warnings=0"
+    ]
+  },
   "dependencies": {
     "ui-lib": "1.0.0",
     "vue": "^3.2.25"
@@ -20,6 +25,8 @@
     "config": "1.0.0",
     "eslint": "^8.13.0",
     "eslint-plugin-prettier": "^4.0.0",
+    "husky": "^7.0.4",
+    "lint-staged": "^12.3.7",
     "vite": "^2.9.0"
   }
 }
