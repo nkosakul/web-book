@@ -7,11 +7,11 @@
   "license": "MIT",
   "private": true,
   "workspaces": [
-    "ui-lib",
+    "packages/*",
     "app"
   ],
   "config": {
-    "uilibpath": "ui-lib"
+    "uilibpath": "packages/ui-lib"
   },
   "scripts": {
     "build-storybook": "build-storybook --config-dir $npm_package_config_uilibpath/.storybook"
